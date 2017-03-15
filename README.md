@@ -49,21 +49,21 @@ for each supported target, check [here](https://at.projects.genivi.org/wiki/disp
 Layer Dependency List
 ---------------------
 URI: git://git.yoctoproject.org/meta-ivi
-* branch:   11.0
-* revision: 28b25ef27eccc0a800a1cbd3d3ea2c8f8494ca1e
+* branch:   12.0 (N-0.2 tag)
+* revision: cee97c5335a34d97d0940728254c32fa7f773519
 
 URI: https://github.com/meta-qt5/meta-qt5.git
 * branch:   krogoth
 * revision: d715f2c1d340fa38f8a9860acc73de5e14a38b75
 
 URI: git://git.openembedded.org/meta-openembedded
-* layers:   meta-oe, meta-ruby, meta-filesystems
-* branch:   krogoth
-* revision: 247b1267bbe95719cd4877d2d3cfbaf2a2f4865a
+* layers:   meta-oe, meta-ruby, meta-filesystems, meta-python
+* branch:   morty
+* revision: 1efa5d623bc64659b57389e50be2568b1355d5f7
 
 URI: git://git.yoctoproject.org/poky
-* branch:   krogoth
-* revision: 12eb72ee3b02f826a156ff4e396c770f2b93571e
+* branch:   morty
+* revision: 6a1f33cc40bfac33cf030fe41e1a8efd1e5fad6f 
 
 URI: git://github.com/jmesmon/meta-rust.git
 * branch: master
@@ -84,8 +84,8 @@ URI: git://github.com/joaohf/meta-erlang.git
 ## The Raspberry Pi 2,3 boards depends in addition on: ##
 
 URI: git://git.yoctoproject.org/meta-raspberrypi
-* branch:   master
-* revision: 4c02c7ce07121c2f5367204445f93199d828bb10
+* branch:   morty
+* revision: cce6292e41493158c26f5b1b7fded97faacf10d7
 
 ## The Renesas R-Car Gen2 Silk & Porter boards depend in addition on: ##
 URI: git://github.com/slawr/meta-renesas.git
@@ -93,13 +93,13 @@ URI: git://github.com/slawr/meta-renesas.git
 
 ## The Intel Minnowboard MAX depends in addition on: ##
 URI: git://git.yoctoproject.org/meta-intel
-* branch: krogoth
-* revision: b8c199201ffe026485a14e1fcfc398e2b3551512
+* branch: morty
+* revision: 6add41510412ca196efb3e4f949d403a8b6f35d7 
 
 ## The Qualcomm Dragonboard 410c depends in addition on: ##
 URI: git://git.yoctoproject.org/meta-qcom
-* branch: krogoth
-* revision: 19ff1853a764ee1014f4e7a295e030b6ddc10612
+* branch: morty
+* revision: db9f380a80b99641d90c44042c5d5949f5d49f6d 
 
 Supported Machines
 ------------------
